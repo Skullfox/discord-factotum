@@ -1,7 +1,7 @@
 {
   "name": "discord-factotum",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://github.com/Skullfox/discord-factotum",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
