@@ -90,6 +90,11 @@ function getTodayEvents(){
 client.on('message', msg => {
   if (msg.content === '!f') {
     getTodayEvents();
+  };
+  if (msg.content === '!time') {
+    var t = new Date();
+    var smin = (t.getUTCMinutes() == 0 ) ? "00" : t.getUTCMinutes();
+    msg.reply("current UTC time is " + t.getUTCHours() + ":" + smin + ".");
   }
 });
 
